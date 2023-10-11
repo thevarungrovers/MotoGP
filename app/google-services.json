@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "491785979551",
+    "project_id": "motogp-lasalle-android",
+    "storage_bucket": "motogp-lasalle-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491785979551:android:763b86e79fe557cbc544aa",
+        "android_client_info": {
+          "package_name": "com.example.motogp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsKYEHgO87aV5CkW6xj6ocQV9xLzgXU7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
