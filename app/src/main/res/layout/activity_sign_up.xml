@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:backgroundTint="@color/white" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create An Account"
+        android:textSize="40dp"
+        android:textColor="@color/project_color"/>
+
+    <EditText
+        android:id="@+id/edtFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your First Name"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/edtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Last Name"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:layout_margin="5dp" />
+
+    <Spinner
+        android:id="@+id/spnGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/edtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/project_color"/>
+
+    <TextView
+        android:id="@+id/linkLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Have Account ? Log IN"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/project_color"/>
+</LinearLayout>
