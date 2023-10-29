@@ -5,7 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.motogp"
-    compileSdk = 33
+    compileSdk = 34
+
+    packagingOptions {
+        exclude ("META-INF/INDEX.LIST")
+        exclude ("META-INF/io.netty.versions.properties")
+    }
 
     defaultConfig {
         applicationId = "com.example.motogp"
@@ -31,8 +36,11 @@ android {
 
 dependencies {
 
+    implementation ("com.squareup.picasso:picasso:2.71828")
+    implementation ("org.asynchttpclient:async-http-client:2.12.3")
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.9.0")
+    implementation ("androidx.activity:activity:1.8.0")
+    implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.google.firebase:firebase-auth-ktx:22.1.2")
     implementation("com.google.firebase:firebase-database-ktx:20.2.2")
