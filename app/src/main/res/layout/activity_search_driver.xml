@@ -16,11 +16,21 @@
         android:textColor="@color/project_color"
         android:textSize="30dp" />
 
-    <AutoCompleteTextView
-        android:id="@+id/autoCompleteSearch"
+    <EditText
+        android:id="@+id/txtFirstName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp" />
+        android:hint="FirstName"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp">
+    </EditText>
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_width="match_parent"
+        android:hint="LastName"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+    </EditText>
 
     <Button
         android:id="@+id/btnSearch"
