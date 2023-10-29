@@ -8,9 +8,13 @@
     android:layout_margin="10dp"
     android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="List all Drivers" />
+    <ListView
+        android:id="@+id/listOfDrivers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25dp"
+        android:textColor="@color/project_color"
+        >
 
+    </ListView>
 </LinearLayout>
